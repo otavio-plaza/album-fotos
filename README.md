@@ -1,5 +1,5 @@
 # 🖼️ Álbum de Fotos
-Projeto desenvolvido com o objetivo de praticar HTML e CSS, focando na criação de layouts e exibição de imagens em formato de galeria.  
+Projeto desenvolvido com o objetivo de praticar conceitos de front-end, focando na criação de layouts, animações e responsividade utilizando CSS.  
 O site consiste em um álbum de fotos com imagens de dois cachorros, com foco em organização de layout e estilização.
 
 ## 🚀 Tecnologias utilizadas
