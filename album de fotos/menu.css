@@ -1,0 +1,80 @@
+body {
+	background-color: rgb(203,220,184);
+	height: 100vh;
+	overflow:hidden;
+}
+h1 {
+	font: 40pt Georgia;
+	background-color: white;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: rgb(146,159,132) 0 0 8px;
+}
+.batalha {
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.card {
+	text-align:center;
+	font:20pt Georgia;
+}
+.nome {
+	background-color:white;
+	border:2px solid white;
+	border-radius:30px;
+	width:fit-content;
+	padding:10px 100px;
+	margin:0 auto;
+	box-shadow:rgb(146,159,132) 0 0 8px;
+}
+.nome p {
+	margin:0;
+}
+.card img {
+	width:300px;
+	height:400px;
+	object-fit:cover;
+	border-radius:20px;
+	box-shadow:black 0 0 8px;
+	transition:all 0.5s ease;
+}
+.card img:hover {
+	box-shadow:black 0px 7px 29px 0px;
+}
+.card img:active {
+	box-shadow:black 0px 0px 0px 0px;
+	transform:translateY(10px);
+	transition:100ms;
+}
+.espadas img {
+	width:300px;
+}
+button {
+	padding:10px 30px;
+	border-radius: 50px;
+	cursor: pointer;
+	border:0;
+	background-color:white;
+	box-shadow:black 0 0 8px;
+	letter-spacing:1.5px;
+	text-transform:uppercase;
+	font-size:15px;
+	transition:all 0.5s ease;
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+button:hover {
+	letter-spacing:3px;
+	box-shadow:black 0px 7px 29px 0px;
+	background-color:rgb(220,220,220);
+	color:white;
+}
+button:active {
+	box-shadow:black 0px 0px 0px 0px;
+	background-color:rgb(190,190,190);
+	transform:translateY(10px);
+	transition:100ms;
+}
