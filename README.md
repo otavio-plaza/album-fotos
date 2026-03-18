@@ -1,2 +1,2 @@
 # album-fotos
-Projeto de galeria de fotos desenvolvido para praticar HTML e CSS.
+Projeto desenvolvido com o objetivo de praticar HTML e CSS, focando na criação de layouts e exibição de imagens em formato de galeria.
